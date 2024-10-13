@@ -1,9 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import { FaLaptopCode, FaGraduationCap, FaBuilding, FaRegPaperPlane } from 'react-icons/fa'; 
+import corpcommentImg from "@/public/htx-shows.png";
+import rmtdevImg from "@/public/deepwave-live.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,44 +33,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Freelance Front-End Developer",
+    location: "",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Developed custom websites for creative agencies and clients using HTML, CSS, JavaScript, Bootstrap, and WordPress. Collaborated with graphic designers to convert static mockups into interactive web pages and created custom CSS animations. Implemented site-map solutions and utilized Adobe Suite (Photoshop, Illustrator, Premiere) for graphic elements. Managed email campaigns using Send Grid.",
+    icon: React.createElement(FaLaptopCode), // Changed to a coding-related icon
+    date: "2010-2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Completed Full Stack Certification",
+    location: "",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Gained expertise in modern frameworks like React and Node.js, built dynamic web applications, and learned RESTful API design. Developed skills in database management with MongoDB and Express.js, focusing on responsive design and user experience.",
+    icon: React.createElement(FaGraduationCap), // Icon for education/completion
+    date: "2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Senior Developer at Good Agency",
+    location: "",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "Developed dynamic CRUD applications with React, Next.js, Node.js, and SQL, and built full-scope websites using HTML, CSS, JavaScript, and PHP. Created backend systems for automation and managed WordPress site development and maintenance. Developed responsive eCommerce sites with custom query systems, engaged in iOS app and SQL database maintenance, and handled DNS management for 60+ websites. Integrated conversion tracking with Google Analytics and coordinated a large-scale website migration to a new server.",
+    icon: React.createElement(FaBuilding), // Changed to an office/building icon to represent a company
     date: "2021 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "HTXshows",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "HTXshows is a web app that lets users list shows in a PostgreSQL database with JavaScript filtering and sorting, while scraping venue listings.",
+    tags: ["React", "Next.js", "PostgreSQL", "Stripe API"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Deepwave.Live",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Audio file management software that utilizes React, SQL,and AWS S3 for file storage.",
+    tags: ["React", "AWS", "SQL", "JWT Auth"],
     imageUrl: rmtdevImg,
   },
   {
@@ -94,14 +92,10 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Wordpress",
+  "PHP"
 ] as const;
