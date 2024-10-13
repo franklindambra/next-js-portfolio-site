@@ -20,7 +20,7 @@ export default function About() {
             <p className="mb-3">
 
                 I began programming began in 2010 creating fully custom websites with core web languages (HTML/CSS/JS).
-                After deciding to embrace development as my full time career in 2020, I was able to build on this solid foundation and complete a full-stack developer bootcamp which sharpened my knowledge of modern frameworks and technolgies.{" "}<span className="italic">My favorite part of programming</span> is creating elegant solutions leveraging structured data. I <span className="underline">love</span>{" "}systems thinking and finding the best solutions to suit unique bussiness logic. <br></br><br></br>
+                After deciding to embrace development as my full time career in 2020, I was able to build on this solid foundation and complete a full-stack developer bootcamp which sharpened my knowledge of modern frameworks and technologies.{" "}<span className="italic">My favorite part of programming</span> is creating elegant solutions leveraging structured data. I <span className="underline">love</span>{" "}systems thinking and finding the best solutions to suit unique bussiness logic. <br></br><br></br>
 
                 My core stack
                 is{" "}
