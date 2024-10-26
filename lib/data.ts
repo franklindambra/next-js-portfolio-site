@@ -2,7 +2,7 @@ import React from "react";
 import { FaLaptopCode, FaGraduationCap, FaBuilding, FaRegPaperPlane } from 'react-icons/fa'; 
 import corpcommentImg from "@/public/htx-shows.png";
 import rmtdevImg from "@/public/deepwave-live.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import wordanalyticsImg from "@/public/Screenshot 2024-10-26 at 6.15.57 PM.png";
 
 export const links = [
   {
@@ -74,10 +74,10 @@ export const projectsData = [
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Next Js Blog",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A blog with Kinde authentication and server actions built using the NextJS framework.",
+    tags: ["Next.js", "Prisma", "SQL", "Tailwind", "Kinde Auth"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
