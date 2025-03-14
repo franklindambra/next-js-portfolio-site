@@ -1,5 +1,10 @@
 import React from "react";
-import { FaLaptopCode, FaGraduationCap, FaBuilding, FaRegPaperPlane } from 'react-icons/fa'; 
+import {
+  FaLaptopCode,
+  FaGraduationCap,
+  FaBuilding,
+  FaRegPaperPlane,
+} from "react-icons/fa";
 import corpcommentImg from "@/public/htx-shows.png";
 import rmtdevImg from "@/public/deepwave-live.png";
 import wordanalyticsImg from "@/public/Screenshot 2024-10-26 at 6.15.57 PM.png";
@@ -54,7 +59,31 @@ export const experiencesData = [
     description:
       "Developed dynamic CRUD applications with React, Next.js, Node.js, and SQL, and built full-scope websites using HTML, CSS, JavaScript, and PHP. Created backend systems for automation and managed WordPress site development and maintenance. Developed responsive eCommerce sites with custom query systems, engaged in iOS app and SQL database maintenance, and handled DNS management for 60+ websites. Integrated conversion tracking with Google Analytics and coordinated a large-scale website migration to a new server.",
     icon: React.createElement(FaBuilding), // Changed to an office/building icon to represent a company
-    date: "2021 - present",
+    date: "2021 - 2024",
+  },
+  {
+    title: "Full Stack Developer at La Praim",
+    location: "",
+    description:
+      "Reviewed and optimized existing PHP systems and templates to improve simplicity and scalability by refactoring and debugging legacy code. Developed dynamic, data-driven user interfaces in PHP to replace static, hard-coded components, enhancing flexibility and maintainability. Managed custom PHP templates and logic for seamless integration with WordPress custom post types and their associated data models. Additionally, monitored server health and implemented backend solutions to ensure system stability and performance.",
+    icon: React.createElement(FaBuilding), // Changed to an office/building icon to represent a company
+    date: "2024",
+  },
+  {
+    title: "Founder and Lead Developer at Dambra Web Design",
+    location: "",
+    description:
+      "As the founder and lead developer at Dambra Web Design, I specialize in Next.js and WordPress development, creating high-performance, scalable web applications. I oversee project development from inception to deployment, managing client intake, technical strategy, and execution. My work involves optimizing WordPress and Next.js integrations, developing custom solutions, and ensuring seamless user experiences through efficient frontend and backend development. Additionally, I lead project management efforts, coordinating timelines, resources, and development workflows to deliver tailored digital solutions that meet client needs.",
+    icon: React.createElement(FaBuilding), // Changed to an office/building icon to represent a company
+    date: "2025",
+  },
+  {
+    title: "Software Engineer at Peak Values Consulting",
+    location: "",
+    description:
+      "At Peak Values Consulting, I specialize in Next.js development, integrating GROQ for querying Sanity data and managing CI/CD deployments to Vercel. My work involves building and optimizing scalable web applications, streamlining data fetching strategies, and ensuring seamless frontend and backend interactions. I also collaborate on enhancing system performance, maintaining code quality, and implementing best practices for modern web development.",
+    icon: React.createElement(FaBuilding), // Changed to an office/building icon to represent a company
+    date: "",
   },
 ] as const;
 
@@ -97,5 +126,5 @@ export const skillsData = [
   "PostgreSQL",
   "Framer Motion",
   "Wordpress",
-  "PHP"
+  "PHP",
 ] as const;
