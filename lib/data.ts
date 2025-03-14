@@ -91,8 +91,15 @@ export const projectsData = [
   {
     title: "HTXshows",
     description:
-      "HTXshows is a web app that lets users list shows in a PostgreSQL database with JavaScript filtering and sorting, while scraping venue listings.",
-    tags: ["React", "Next.js", "PostgreSQL", "Stripe API"],
+      "HTXshows is an events listing application for Houston which utilizes NextJS, PostgreSQL, NexAuth and Stripe Webhooks",
+    tags: [
+      "Next.js",
+      "Typescript",
+      "NextAuth",
+      "PostgreSQL",
+      "Prisma",
+      "Stripe SDK & Webhooks",
+    ],
     imageUrl: corpcommentImg,
   },
   {
@@ -116,6 +123,8 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Shopify",
+  "ORM",
   "React",
   "Next.js",
   "Node.js",
