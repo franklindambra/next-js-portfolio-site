@@ -91,7 +91,7 @@ export const projectsData = [
   {
     title: "HTXshows",
     description:
-      "HTXshows is an events listing application for Houston which utilizes NextJS, PostgreSQL, NexAuth and Stripe Webhooks",
+      "HTXshows is an events listing application for Houston which utilizes NextJS, PostgreSQL, NexAuth and Stripe Webhooks.",
     tags: [
       "Next.js",
       "Typescript",
