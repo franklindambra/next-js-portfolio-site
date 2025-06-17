@@ -70,20 +70,12 @@ export const experiencesData = [
     date: "2024",
   },
   {
-    title: "Founder and Lead Developer at Dambra Web Design",
-    location: "",
-    description:
-      "As the founder and lead developer at Dambra Web Design, I specialize in Next.js and WordPress development, creating high-performance, scalable web applications. I oversee project development from inception to deployment, managing client intake, technical strategy, and execution. My work involves optimizing WordPress and Next.js integrations, developing custom solutions, and ensuring seamless user experiences through efficient frontend and backend development. Additionally, I lead project management efforts, coordinating timelines, resources, and development workflows to deliver tailored digital solutions that meet client needs.",
-    icon: React.createElement(FaBuilding), // Changed to an office/building icon to represent a company
-    date: "2025",
-  },
-  {
     title: "Software Engineer at Peak Values Consulting",
     location: "",
     description:
       "At Peak Values Consulting, I specialize in Next.js development, integrating GROQ for querying Sanity data and managing CI/CD deployments to Vercel. My work involves building and optimizing scalable web applications, streamlining data fetching strategies, and ensuring seamless frontend and backend interactions. I also collaborate on enhancing system performance, maintaining code quality, and implementing best practices for modern web development.",
     icon: React.createElement(FaBuilding), // Changed to an office/building icon to represent a company
-    date: "",
+    date: "2025",
   },
 ] as const;
 
