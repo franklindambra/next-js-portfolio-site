@@ -49,7 +49,7 @@ export default function Project({
         </div>
 
         <div
-          className="w-[50%] rounded-lg bg-cover sm:group-even:order-1 bg-center"
+          className="w-[50%] rounded-lg bg-cover sm:group-even:order-1 bg-center-right"
           style={{ backgroundImage: `url(${imageUrl})` }}
         ></div>
       </section>
