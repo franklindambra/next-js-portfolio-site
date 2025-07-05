@@ -65,7 +65,7 @@ export const experiencesData = [
     title: "Software Engineer at Peak Values Consulting",
     location: "",
     description:
-      "At Peak Values Consulting, I specialize in web application development with Next.js development, integrating GROQ for querying Sanity data and managing CI/CD deployments to Vercel. My work involves building and optimizing scalable web applications, streamlining data fetching strategies, and ensuring seamless frontend and backend interactions. I also collaborate on enhancing system performance, maintaining code quality, and implementing best practices for modern web development.",
+      "At Peak Values Consulting, I specialize in developing modern web applications with Next.js, delivering scalable, high-performance solutions tailored to client needs—including for the oil and gas industry. My work spans full-stack development, API integration, and CI/CD deployment to Vercel. I focus on building fast, responsive user interfaces, optimizing data-fetching strategies, and ensuring seamless communication between frontend and backend systems. I also contribute to system performance tuning, code quality, and applying best practices in modern web development.",
     icon: React.createElement(FaBuilding), // Changed to an office/building icon to represent a company
     date: "2025",
   },
