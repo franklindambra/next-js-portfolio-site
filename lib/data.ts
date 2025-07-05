@@ -1,12 +1,8 @@
 import React from "react";
-import {
-  FaLaptopCode,
-  FaGraduationCap,
-  FaBuilding,
-  FaRegPaperPlane,
-} from "react-icons/fa";
+import { FaLaptopCode, FaGraduationCap, FaBuilding } from "react-icons/fa";
 import corpcommentImg from "@/public/htx-shows.png";
 import rmtdevImg from "@/public/deepwave-live.png";
+import pvImage from "@/public/pv.png";
 import wordanalyticsImg from "@/public/Screenshot 2024-10-26 at 6.15.57 PM.png";
 
 export const links = [
@@ -73,7 +69,7 @@ export const experiencesData = [
     title: "Software Engineer at Peak Values Consulting",
     location: "",
     description:
-      "At Peak Values Consulting, I specialize in Next.js development, integrating GROQ for querying Sanity data and managing CI/CD deployments to Vercel. My work involves building and optimizing scalable web applications, streamlining data fetching strategies, and ensuring seamless frontend and backend interactions. I also collaborate on enhancing system performance, maintaining code quality, and implementing best practices for modern web development.",
+      "At Peak Values Consulting, I specialize in web application development with Next.js development, integrating GROQ for querying Sanity data and managing CI/CD deployments to Vercel. My work involves building and optimizing scalable web applications, streamlining data fetching strategies, and ensuring seamless frontend and backend interactions. I also collaborate on enhancing system performance, maintaining code quality, and implementing best practices for modern web development.",
     icon: React.createElement(FaBuilding), // Changed to an office/building icon to represent a company
     date: "2025",
   },
@@ -81,9 +77,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "HTXshows",
+    title: "HTX Shows",
     description:
-      "HTXshows is an events listing application for Houston which utilizes NextJS, PostgreSQL, NexAuth and Stripe Webhooks.",
+      "HTXshows is a freemium full-stack content platform events listings in Houston",
     tags: [
       "Next.js",
       "Typescript",
@@ -91,41 +87,54 @@ export const projectsData = [
       "PostgreSQL",
       "Prisma",
       "Stripe SDK & Webhooks",
+      "Cheerio",
+      "Web Scrapers",
+      "SEO",
+      "SSR",
     ],
-    imageUrl: corpcommentImg,
+    imageUrl: "/htx-shows.png",
+  },
+  {
+    title: "Peak Values Consulting",
+    description:
+      "Full stack marketing site built with NextJS, Tailwind and Sanity CMS. Fully architected for SEO.",
+    tags: ["NextJS", "Vercel", "Sanity", "Groq", "SEO", "SSR", "SSG"],
+    imageUrl: "/pv.png",
   },
   {
     title: "Deepwave.Live",
     description:
       "Audio file management software that utilizes React, SQL,and AWS S3 for file storage.",
     tags: ["React", "AWS", "SQL", "JWT Auth"],
-    imageUrl: rmtdevImg,
+    imageUrl: "/deepwave-live.png",
   },
   {
     title: "Next Js Blog",
     description:
       "A blog with Kinde authentication and server actions built using the NextJS framework.",
     tags: ["Next.js", "Prisma", "SQL", "Tailwind", "Kinde Auth"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: "/blog.png",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
   "CSS",
+  "Express",
+  "Framer Motion",
+  "Git",
+  "Go",
+  "HTML",
   "JavaScript",
-  "TypeScript",
-  "Shopify",
-  "ORM",
-  "React",
+  "MongoDB",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "MongoDB",
-  "Express",
-  "PostgreSQL",
-  "Framer Motion",
-  "Wordpress",
+  "ORM",
   "PHP",
+  "PostgreSQL",
+  "Python",
+  "React",
+  "Shopify",
+  "Tailwind",
+  "TypeScript",
+  "Wordpress",
 ] as const;
