@@ -1,9 +1,5 @@
 import React from "react";
 import { FaLaptopCode, FaGraduationCap, FaBuilding } from "react-icons/fa";
-import corpcommentImg from "@/public/htx-shows.png";
-import rmtdevImg from "@/public/deepwave-live.png";
-import pvImage from "@/public/pv.png";
-import wordanalyticsImg from "@/public/Screenshot 2024-10-26 at 6.15.57 PM.png";
 
 export const links = [
   {
