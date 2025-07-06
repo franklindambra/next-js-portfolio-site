@@ -30,10 +30,10 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[45rem] border border-black/5 rounded-lg relative sm:h-[20rem] hover:bg-gray-200 transition  dark:text-white dark:bg-white/10 dark:hover:bg-white/20 flex flex-row">
-        <div className="pt-4 pb-7 px-5  sm:pt-10 sm:max-w-[50%] flex flex-col h-full  sm:group-even:order-2">
+      <section className="bg-gray-100 max-w-[45rem] border border-black/5 rounded-lg relative  hover:bg-gray-200 transition  dark:text-white dark:bg-white/10 dark:hover:bg-white/20 flex flex-column sm:flex-row p-5">
+        <div className="sm:max-w-[50%] flex flex-col h-full  sm:group-even:order-2">
           <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+          <p className="mt-2 mb-5 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
@@ -49,7 +49,7 @@ export default function Project({
         </div>
 
         <div
-          className="w-[50%] rounded-lg bg-cover sm:group-even:order-1 bg-center-right"
+          className="hidden  w-[50%] sm:block rounded-lg bg-cover sm:group-even:order-1 bg-center-right h-[300px] p-5 group-odd:ml-5 group-even:mr-5"
           style={{ backgroundImage: `url(${imageUrl})` }}
         ></div>
       </section>

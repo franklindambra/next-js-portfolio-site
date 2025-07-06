@@ -75,9 +75,10 @@ export const projectsData = [
   {
     title: "HTX Shows",
     description:
-      "HTXshows is a freemium full-stack content platform events listings in Houston",
+      "HTXshows is a freemium full-stack content platform events listings in Houston. NextAuth is integrated for user accounts binded to event listing data. Conditional checkout for featured listings is handled via the Stripe SDK and a webhook endpoint built into the Next API layer to handle to data conditions.",
     tags: [
       "Next.js",
+      "Node.js",
       "Typescript",
       "NextAuth",
       "PostgreSQL",
@@ -93,21 +94,30 @@ export const projectsData = [
   {
     title: "Peak Values Consulting",
     description:
-      "Full stack marketing site built with NextJS, Tailwind and Sanity CMS. Fully architected for SEO.",
-    tags: ["NextJS", "Vercel", "Sanity", "Groq", "SEO", "SSR", "SSG"],
+      "Full stack marketing site built with NextJS, Tailwind and Sanity CMS with full SEO exports. My main focus here was a clean and consistent component architecture and proper demarcation of SSR and useClient boundaries. I worked with Peak Values to prescribe the exact data shapes required for actively managed content in the blog, services, team and industries silos. I also implemeted SSG and caching strategies for edge compatibility without sacrificing the loading & display of new data brought in from the Sanity CMS.",
+    tags: [
+      "NextJS",
+      "Vercel",
+      "Sanity",
+      "Groq",
+      "SEO",
+      "SSR",
+      "SSG",
+      "Framer Motion",
+    ],
     imageUrl: "/pv.png",
   },
   {
     title: "Deepwave.Live",
     description:
-      "Audio file management software that utilizes React, SQL,and AWS S3 for file storage.",
+      "This was an experiment in creating a stateful audio file player/management application that permitted file upload and CRUD operations on meta pertaining to the audio. I utilized a PostgreSQL database, and AWS S3 for file storage. I also created a custom authentication system to protect the front end via JWT method without the use of any auth package. ",
     tags: ["React", "AWS", "SQL", "JWT Auth"],
     imageUrl: "/deepwave-live.png",
   },
   {
     title: "Next Js Blog",
     description:
-      "A blog with Kinde authentication and server actions built using the NextJS framework.",
+      "A classic blog with Kinde authentication and server actions built using the NextJS framework.",
     tags: ["Next.js", "Prisma", "SQL", "Tailwind", "Kinde Auth"],
     imageUrl: "/blog.png",
   },

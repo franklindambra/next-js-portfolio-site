@@ -33,11 +33,6 @@ export default function About() {
         . I'm always eager to explore new technologies and stay at the forefront
         of the ever-evolving software landscape.
       </p>
-
-      <p>
-        When I'm not programming I also enjoy performing as a Jazz pianist and
-        creating original musical compositions.
-      </p>
     </motion.section>
   );
 }
